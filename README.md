@@ -1,11 +1,21 @@
-Name: Gakwaya Ishimwe Raoul
-Registration number: 26023
-My numbers
-.D=1, L=1
-.Starting balance=1000+(1×10)=1010 RWF
-.Bus fare = 200 ÷ 1=201 RWF
-.Student discount = 10 ÷ 1 = 11%
-output of main.dart:
+# README.md
+
+## Student Information
+
+-   **Name:** Gakwaya Ishimwe Raoul
+-   **Registration Number:** 26023
+
+## My Numbers
+
+-   D = 1
+-   L = 1
+-   Starting balance = 1000 + (1 × 10) = **1010 RWF**
+-   Bus fare = 200 + 1 = **201 RWF**
+-   Student discount = 10 + 1 = **11%**
+
+## Output of main.dart
+
+``` text
 Error: name too short
 Owner: Gakwaya Ishimwe Raoul | Balance: 1230 RWF
 Owner: Gakwaya Ishimwe Raoul | Balance: 1230 RWF
@@ -18,8 +28,13 @@ Student discount: 28 RWF
 Paid 195 RWF
 Owner: Gakwaya Ishimwe Raoul | Balance: 1035 RWF
 Student card: 13% off
-bug_hunt.dart — Part 4
+```
 
+## Part 4 --- Bug Hunt
+
+**File: bug_hunt.dart**
+
+``` dart
 class Phone {
   String _brand = '';
   int _battery = 0;
@@ -63,9 +78,13 @@ void main() {
   p.battery = 100;
   print(p.battery);
 }
-Part 5 — Prediction code
-Create a separate file called prediction.dart.
+```
 
+## Part 5 --- Prediction Code
+
+**File: prediction.dart**
+
+``` dart
 class Bag {
   int _items = 0;
 
@@ -104,5 +123,4 @@ void main() {
   b.items = b.items + 1;
   print(b.items);
 }
-
-
+```
